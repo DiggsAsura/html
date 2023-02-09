@@ -1,0 +1,33 @@
+/* black background */
+body {
+    background-color: #000000;
+    /* font size 5 */
+    font-size: 20px;
+}
+
+/* white text */
+h1 {
+    color: #ffffff;
+}
+
+/* white font on paragraphs */
+p {
+    color: #ffffff;
+}
+
+/* links white, but bold when hovered over */
+a {
+    color: #ffffff;
+}
+
+/* div class "content" has 100 left and right margins */
+.content {
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+/* cool border on the image */
+img {
+    border: 2px solid #ffffff;
+}
