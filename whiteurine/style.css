@@ -28,6 +28,13 @@ a {
 }
 
 /* cool border on the image */
-img {
+.img {
     border: 2px solid #ffffff;
+}
+
+.f {
+    /* floating content */
+    float: right;
+    margin-top: 200px;
+    font-size: 20px;
 }
