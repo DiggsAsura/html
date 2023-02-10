@@ -1,8 +1,12 @@
 /* black background */
 body {
-    background-color: #000000;
+    /*background-color: darkslategray; */
+    /*background-color: darkred; */
+    /*background-color: brown; */
+    background-color: black;
+
     /* font size 5 */
-    font-size: 20px;
+    font-size: 23px;
 }
 
 /* white text */
