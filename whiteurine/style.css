@@ -6,7 +6,13 @@ body {
     background-color: black;
 
     /* font size 5 */
-    font-size: 23px;
+    font-size: 35px;
+
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+
+    font-family: 'Dosis', sans-serif;
 }
 
 /* white text */
@@ -26,9 +32,9 @@ a {
 
 /* div class "content" has 100 left and right margins */
 .content {
-    margin-top: 100px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 /* cool border on the image */
@@ -36,9 +42,15 @@ a {
     border: 2px solid #ffffff;
 }
 
+
+/* dark scroll bar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+footer {
+    margin-top: auto;
+}
 .f {
-    /* floating content */
     float: right;
-    margin-top: 200px;
-    font-size: 20px;
 }
