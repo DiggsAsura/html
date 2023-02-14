@@ -4,7 +4,7 @@ body {
     /*background-color: darkred;*/
     /*background-color: brown; */
     /*background-color: black;*/
-    animation: alternate-background 0.3s infinite;
+    animation: alternate-background 2s infinite;
 
     /* font size 5 */
     font-size: 40px;
@@ -20,7 +20,7 @@ body {
         background-color: black;
     }
     50% {
-        background-color: red;
+        background-color: darkred;
     }
     100% {
         background-color: black;
