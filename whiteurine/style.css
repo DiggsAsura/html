@@ -6,7 +6,7 @@ body {
     background-color: black;
 
     /* font size 5 */
-    font-size: 35px;
+    font-size: 40px;
 
     min-height: 85vh;
     display: flex;
@@ -25,24 +25,44 @@ p {
     color: #ffffff;
 }
 
-/* links white, but bold when hovered over */
 a {
     color: #ffffff;
+    text-decoration: none;
+}
+a:hover {
+    color: #ffffff;
+    text-decoration: underline;
 }
 
 /* div class "content" has 100 left and right margins */
-.content {
-    margin-top: 10%;
+.pic {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.img {
+    border: 2px solid #ffffff;
+    border-radius: 12px;
+}
+
+.flex-container {
+    display: flex;
+    margin-top: 5%;
     margin-left: 10%;
     margin-right: 10%;
 }
 
-/* cool border on the image */
-.img {
-    border: 2px solid #ffffff;
+.flex-spotify {
+    flex: 1;
+    margin-right: 2%;
 }
 
-
+.flex-booking {
+    padding: 0 5%;
+    background-color: #1A1A1A;
+    border-radius: 12px;
+    margin-bottom: 1% /* because spotify troll */
+}
 /* dark scroll bar */
 ::-webkit-scrollbar {
     width: 10px;
