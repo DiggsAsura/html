@@ -9,12 +9,17 @@ body {
     /* font size 5 */
     font-size: 40px;
 
-    min-height: 85vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
 
     font-family: 'Dosis', sans-serif;
+    height: 100%;
+    margin: 0;
+
 }
+
+
 @keyframes alternate-background {
     0% {
         background-color: black;
@@ -67,23 +72,34 @@ a:hover {
 
 .flex-spotify {
     flex: 1;
+    padding: 0px;
+    border-radius: 12px;
     margin-right: 2%;
 }
 
 .flex-booking {
-    padding: 0 2%;
-    background: rgba(42, 42, 42, 0.5);
+    padding: 2% 5%;
+    border: 2px solid #ffffff;
+    background: rgba(0, 0, 0, 0.3);
     border-radius: 12px;
     margin-bottom: 1% /* because spotify troll */
 }
-/* dark scroll bar */
+/* dark scroll bar
 ::-webkit-scrollbar {
     width: 10px;
 }
+*/
 
-footer {
-    margin-top: auto;
-}
 .f {
     float: right;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3);
+}
+.diggs {
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
 }
