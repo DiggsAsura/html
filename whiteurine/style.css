@@ -1,24 +1,17 @@
 /* black background */
 body {
-    /*background-color: darkslategray;*/
-    /*background-color: darkred;*/
-    /*background-color: brown; */
-    /*background-color: black;*/
-    animation: alternate-background 3s infinite;
-
-    /* font size 5 */
     font-size: 40px;
+    font-family: 'Dosis', sans-serif;
 
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 
-    font-family: 'Dosis', sans-serif;
     height: 100%;
     margin: 0;
 
+    animation: alternate-background 3s infinite;
 }
-
 
 @keyframes alternate-background {
     0% {
@@ -32,16 +25,7 @@ body {
     }
 }
 
-/* white text */
-h1 {
-    color: #ffffff;
-}
-
-/* white font on paragraphs */
-p {
-    color: #ffffff;
-}
-
+/* Links */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -51,7 +35,6 @@ a:hover {
     text-decoration: underline;
 }
 
-/* div class "content" has 100 left and right margins */
 .pic {
     margin-top: 5%;
     margin-left: 10%;
@@ -84,12 +67,13 @@ a:hover {
     border-radius: 12px;
     margin-bottom: 1% /* because spotify troll */
 }
-/* dark scroll bar
+
+/* dark scroll bar */
 ::-webkit-scrollbar {
     width: 10px;
 }
-*/
 
+/* Footer and its content */
 .f {
     float: right;
     margin-top: 50px;
